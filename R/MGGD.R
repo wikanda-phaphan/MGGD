@@ -1,4 +1,4 @@
-#' @title The  Two-parameter  Crack Distribution
+#' @title The Mixture Generalized Gamma Distribution
 #'
 #' @description Density, distribution function, random generation, and parameter estimation function for the mixture generalized gamma distribution as Suksaengrakcharoen and Bodhisuwan  (2014) introduced.
 #'
@@ -17,10 +17,12 @@
 #' alpha <-3
 #' p <- 0.5
 #' n <- 30
+#' X <- rMGG(n,lambda,beta,alpha,p)
+#' X
 #' dMGG(X,lambda,beta,alpha,p)
 #' pMGG(X,lambda,beta,alpha,p)
-#' rMGG(n,lambda,beta,alpha,p)
 #' EM(X,n,lambda,beta,alpha,p)
+
 #'
 ###############The  Two-parameter  Crack Distribution#####################
 fGG=function(X,lambda,beta,alpha)

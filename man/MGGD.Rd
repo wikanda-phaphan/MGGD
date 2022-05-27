@@ -1,10 +1,10 @@
 \name{MGGD}
 \alias{MGGD}
-\title{The  Two-parameter  Crack Distribution}
+\title{The Mixture Generalized Gamma Distribution}
 \usage{
+X <- rMGG(n,lambda,beta,alpha,p)
 dMGG(X,lambda,beta,alpha,p)
 pMGG(X,lambda,beta,alpha,p)
-rMGG(n,lambda,beta,alpha,p)
 EM(X,n,lambda,beta,alpha,p)
 }
 \arguments{
@@ -39,10 +39,12 @@ beta <-1
 alpha <-3
 p <- 0.5
 n <- 30
+X <- rMGG(n,lambda,beta,alpha,p)
+X
 dMGG(X,lambda,beta,alpha,p)
 pMGG(X,lambda,beta,alpha,p)
-rMGG(n,lambda,beta,alpha,p)
 EM(X,n,lambda,beta,alpha,p)
+
 }
 \references{
 Suksaengrakcharoen,  S. and Bodhisuwan, W. 2014. A new family of Generalized Gamma distribution and its application.  J. Math. Stat. 10, 2,  211-220.

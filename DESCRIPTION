@@ -1,6 +1,6 @@
 Package: MGGD
 Type: Package
-Title: The  Two-parameter  Crack Distribution
+Title: The Mixture Generalized Gamma Distribution
 Version: 0.0.1
 Authors@R: c(
     person("Wikanda", "Phaphan", email = "maji.hunter@gmail.com", role = c("cre","aut")))
