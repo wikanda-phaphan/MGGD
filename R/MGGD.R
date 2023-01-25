@@ -24,7 +24,7 @@
 #' EM(X,n,lambda,beta,alpha,p)
 
 #'
-###############The  Two-parameter  Crack Distribution#####################
+###############The  Mixture Generalized Gamma Distribution#####################
 fGG=function(X,lambda,beta,alpha)
 {
   ((lambda*beta)/(gamma(alpha)))*(lambda*X)^((alpha*beta)-1)*
