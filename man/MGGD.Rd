@@ -5,7 +5,7 @@
 X <- rMGG(n,lambda,beta,alpha,p)
 dMGG(X,lambda,beta,alpha,p)
 pMGG(X,lambda,beta,alpha,p)
-EM(X,n,lambda,beta,alpha,p)
+EM(X,n)
 }
 \arguments{
 \item{X}{vector of data.}
@@ -43,7 +43,7 @@ X <- rMGG(n,lambda,beta,alpha,p)
 X
 dMGG(X,lambda,beta,alpha,p)
 pMGG(X,lambda,beta,alpha,p)
-EM(X,n,lambda,beta,alpha,p)
+EM(X,n)
 
 }
 \references{
