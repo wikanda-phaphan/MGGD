@@ -71,6 +71,7 @@ rMGG=function(n,lambda,beta,alpha,p){
 #X<-rMGG(n,lambda,beta,alpha,p)
 
 EM=function(X,n){
+  X<-as.matrix(X)
   flcomplete1<-function(beta)
   {
 
